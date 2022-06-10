@@ -1,0 +1,94 @@
+.hidden {
+  display: none;
+}
+
+body{
+  margin: 0 auto;
+}
+
+#login-form {
+  position: absolute;
+  top: 40%;
+  left: 75vh;
+  z-index: 2;
+}
+
+#weather{
+  top:30px;
+  position: absolute;
+  left: 77vh;
+  color: ivory;
+  z-index: 2;
+
+}
+
+#greeting {
+  position: absolute;
+  color: ivory;
+  font-size: 5rem;
+  top: 30%;
+  left: 77vh;
+  z-index: 2;
+}
+
+#clock {
+  position: absolute;
+  color: ivory;
+  font-size: 10rem;
+  top: 10%;
+  left: 50vh;
+  z-index: 2;
+}
+
+#todo-form {
+  position: absolute;
+  top: 50%;
+  left: 75vh;
+  z-index: 2;
+}
+
+#todo-list {
+  position: absolute;
+  top: 60%;
+  left: 75vh;
+  z-index: 2;
+}
+
+#todo-list li span {
+  color: ivory;
+  margin-right: 10px;
+}
+
+#quote {
+  position: absolute;
+  top: 90%;
+  left: 70vh;
+  color: white;
+  z-index: 2;
+}
+
+.background {
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-cover {
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  z-index: 1;
+}
+
+input[type=text] {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
